@@ -8,7 +8,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='font-pretendard'>{children}</body>
+      <body className='font-pretendard'>
+        <main className="w-full">
+          {children}
+        </main>
+      </body>
     </html>
   )
 }

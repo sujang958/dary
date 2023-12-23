@@ -7,7 +7,7 @@ const Input = block(
       <input
         type={props.type ?? "text"}
         placeholder={props.placeholder}
-        className={twMerge("bg-neutral-900 rounded-lg px-3 py-1 border border-neutral-700 focus:outline-neutral-400", props.className)}
+        className={twMerge("bg-neutral-900 rounded-lg px-3 py-1 border border-neutral-800 focus:outline-0", props.className)}
       />
     )
   },
